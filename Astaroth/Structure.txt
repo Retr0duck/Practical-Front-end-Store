@@ -1,0 +1,19 @@
+src/
+|-- components/
+|   |-- Navbar.js
+|   |-- Productos.js
+|   |-- DetalleProducto.js
+|   |-- Carrito.js
+|   |-- Checkout.js
+|-- pages/
+|   |-- HomePage.js
+|   |-- ProductPage.js
+|   |-- ProductDetailPage.js
+|   |-- CartPage.js
+|   |-- CheckoutPage.js
+|-- utils/
+|   |-- api.js (para manejar las llamadas a la API)
+|   |-- helpers.js (funciones de ayuda)
+|-- App.js
+|-- index.js
+|-- index.css
