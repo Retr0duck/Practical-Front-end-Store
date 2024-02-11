@@ -11,7 +11,6 @@ import ShoppingCartPage from '../Pages/CartPage';
 import PaymentPage from '../Pages/CheckoutPage';
 import Footer from '../Components/Footer';
 
-
 function App() {
   return (
     <Router>
@@ -19,17 +18,16 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/PCcomp.jsx" element={<Pc />} />
-          <Route path='/Accesorios.jsx' element={<Accesorios />} />
-          <Route path='/Videojuegos.jsx' element={<Videojuegos />} />
-          <Route path='/CartPage.jsx' element={<ShoppingCartPage />} />
-          <Route path="/CheckoutPage.jsx" element={<PaymentPage />} />
+          <Route path="/PCcomp" element={<Pc />} />
+          <Route path='/Accesorios' element={<Accesorios />} />
+          <Route path='/Videojuegos' element={<Videojuegos />} />
+          <Route path='/CartPage' element={<ShoppingCartPage />} />
+          <Route path="/CheckoutPage" element={<PaymentPage />} />
         </Routes>
         <Footer />
       </div>
-    </Router >
+    </Router>
   );
 }
 
 export default App;
-
