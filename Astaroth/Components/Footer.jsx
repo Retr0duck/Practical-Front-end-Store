@@ -1,4 +1,4 @@
-import { defineAsyncComponent } from "vue"
+import { react } from 'react'
 
 const Footer = () => {
     return (
